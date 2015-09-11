@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 
-require_relative '../lib/fizzbuzz.rb'
+require_relative '../lib/bazuzz.rb'
 
 class bazuzzTest < Minitest::Test
   def test_bazuzz_exists
@@ -9,7 +9,7 @@ class bazuzzTest < Minitest::Test
   end
 
   def test_run_exists
-    fb = bazuzz.new
+    c b = bazuzz.new
     assert_respond_to(b, :run)
   end
 
@@ -38,7 +38,7 @@ class bazuzzTest < Minitest::Test
 
   def test_baz_returns_for_div_by_9_numbers
     b = bazuzz.new
-    assert_equal('bazuzz', b.baz(9))
+    assert_equal('bazuzz', b.bazuzz(9))
   end
 
     end

@@ -34,4 +34,3 @@ class Bazuzz
     return n
   end
 end
-
